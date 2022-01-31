@@ -1,0 +1,81 @@
+body {
+    font-family: sans-serif;
+    background-color: snow;
+    background-image: url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.nature-and-garden.com%2Fgardening%2Forange-tree.html&psig=AOvVaw1_2lB8gTw1jQPK-uLnprE_&ust=1643698685699000&source=images&cd=vfe&ved=0CAgQjRxqFwoTCJC4m4C12_UCFQAAAAAdAAAAABAD) center;
+
+    
+}
+
+.info-text{
+    float: right;
+    width: 215px;
+
+    position: relative;
+    display: block;
+    background-color: whitesmoke;
+    margin: 1.5em 0 3em 1.5em;
+    padding: 1.7em 0.5em 2em 1.7em;
+    border-left: black solid 5px;
+    
+
+
+}
+
+
+title{
+    margin-left: 50px;
+}
+
+
+nav{
+    color: #000;
+    font-size: 2em;
+    padding: 1.0em;
+    margin: 1em;
+}
+
+nav li a:hover{
+    color: white;
+
+}
+
+.title{
+    list-style:none;
+    padding: 0%;
+    margin: 0%;
+}
+
+nav li a, li :visited{
+    text-decoration: underline;
+    color: orange;
+    padding: 0.5em 0.9em;
+}
+
+.header{
+    text-align: center;
+    font-style: italic;
+    background-image: url(https://www.medicalnewstoday.com/articles/272782) center;
+
+}
+
+section .front{
+
+    background-color: olive;
+    margin: 0 0 2em;
+    padding: 2em 0 2em 2em;
+    display: inline-block;
+    border-radius: 3em;
+    box-shadow: lightgray 2px 2px 6px; 
+}
+
+section div.section{
+    float: left;
+    position: relative;
+    width: 150px;
+    padding:2em;
+    background-color: lightgray;
+    border: orange 2px; border-radius: 1em;
+}
+
+
+
