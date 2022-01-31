@@ -1,9 +1,6 @@
 body {
     font-family: sans-serif;
-    background-color: snow;
-    background-image: url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.nature-and-garden.com%2Fgardening%2Forange-tree.html&psig=AOvVaw1_2lB8gTw1jQPK-uLnprE_&ust=1643698685699000&source=images&cd=vfe&ved=0CAgQjRxqFwoTCJC4m4C12_UCFQAAAAAdAAAAABAD) center;
-
-    
+    background-color: snow;    
 }
 
 .info-text{
@@ -12,7 +9,7 @@ body {
 
     position: relative;
     display: block;
-    background-color: whitesmoke;
+    background-color: orange;
     margin: 1.5em 0 3em 1.5em;
     padding: 1.7em 0.5em 2em 1.7em;
     border-left: black solid 5px;
@@ -21,11 +18,18 @@ body {
 
 }
 
-
-title{
-    margin-left: 50px;
+.begin{
+    font-family:monospace;
+    font-size: x-large;
 }
 
+.green{
+    color: green;
+}
+
+.white{
+    color: white;
+}
 
 nav{
     color: #000;
@@ -47,14 +51,15 @@ nav li a:hover{
 
 nav li a, li :visited{
     text-decoration: underline;
-    color: orange;
+    color: white;
     padding: 0.5em 0.9em;
 }
 
 .header{
     text-align: center;
     font-style: italic;
-    background-image: url(https://www.medicalnewstoday.com/articles/272782) center;
+    background-color: orange;
+    
 
 }
 
@@ -69,12 +74,12 @@ section .front{
 }
 
 section div.section{
-    float: left;
+    float:left;
     position: relative;
     width: 150px;
     padding:2em;
-    background-color: lightgray;
-    border: orange 2px; border-radius: 1em;
+    background-color:orange;
+    border: orange 2px; border-radius: 15ch;
 }
 
 
